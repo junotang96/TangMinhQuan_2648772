@@ -1,7 +1,7 @@
 /* 
    File:   main
-   Author: Dr. Mark E. Lehr
-   Created on September 12th, 2016, 10:28 AM
+   Author: Minh Quan Tang
+   Created on September 12th, 2016, 6:13 AM
    Purpose:  Calculate the distance dropped in free fall.
  */
 
