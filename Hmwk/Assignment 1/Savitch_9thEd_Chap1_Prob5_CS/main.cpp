@@ -18,7 +18,8 @@ using namespace std;  //Name-space used in the System Library
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declaration of Variables
-   
+    char S=' ';//The space character
+    char C;    
     //Input values
     
     //Process values -> Map inputs to Outputs
