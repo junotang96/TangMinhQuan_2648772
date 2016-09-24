@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
- * Author: Juno
- *
- * Created on September 24, 2016, 2:21 PM
+ * Author: Minh Quan Tang
+ * Purpose: Reads whole numbers and outputs the sum of all the numbers greater than zero
+ * Created on September 23, 2016, 5:21 PM
  */
 
 #include <iostream>
