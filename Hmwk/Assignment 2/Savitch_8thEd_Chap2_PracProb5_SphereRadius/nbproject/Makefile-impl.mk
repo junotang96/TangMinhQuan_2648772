@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Savitch_8thEd_Chap2_PracProb2_SquareRoot
+PROJECTNAME=Savitch_8thEd_Chap2_PracProb5_SphereRadius
 
 # Active Configuration
 DEFAULTCONF=Debug

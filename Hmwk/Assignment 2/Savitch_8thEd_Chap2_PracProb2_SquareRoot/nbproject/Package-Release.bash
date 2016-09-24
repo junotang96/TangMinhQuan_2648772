@@ -13,9 +13,9 @@ CND_BUILDDIR=build
 CND_DLIB_EXT=dll
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/savitch_8thed_chap2_pracprob1_squareroot
-OUTPUT_BASENAME=savitch_8thed_chap2_pracprob1_squareroot
-PACKAGE_TOP_DIR=savitch8thedchap2pracprob1squareroot/
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/savitch_8thed_chap2_pracprob2_squareroot
+OUTPUT_BASENAME=savitch_8thed_chap2_pracprob2_squareroot
+PACKAGE_TOP_DIR=savitch8thedchap2pracprob2squareroot/
 
 # Functions
 function checkReturnCode
@@ -60,15 +60,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/savitch8thedchap2pracprob1squareroot/bin"
+makeDirectory "${NBTMPDIR}/savitch8thedchap2pracprob2squareroot/bin"
 copyFileToTmpDir "${OUTPUT_PATH}.exe" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savitch8thedchap2pracprob1squareroot.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savitch8thedchap2pracprob2squareroot.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savitch8thedchap2pracprob1squareroot.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savitch8thedchap2pracprob2squareroot.tar *
 checkReturnCode
 
 # Cleanup
