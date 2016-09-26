@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=cppapplication_1
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/cppapplication_1
+CND_ARTIFACT_NAME_Debug=thetruthtable
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/thetruthtable
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=cppapplication1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/cppapplication1.tar
+CND_PACKAGE_NAME_Debug=thetruthtable.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/thetruthtable.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=cppapplication_1
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/cppapplication_1
+CND_ARTIFACT_NAME_Release=thetruthtable
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/thetruthtable
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=cppapplication1.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/cppapplication1.tar
+CND_PACKAGE_NAME_Release=thetruthtable.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/thetruthtable.tar
 #
 # include compiler specific variables
 #

@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=grade
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/grade
+CND_ARTIFACT_NAME_Debug=gradeifelse
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/gradeifelse
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=grade.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/grade.tar
+CND_PACKAGE_NAME_Debug=gradeifelse.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/gradeifelse.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=grade
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/grade
+CND_ARTIFACT_NAME_Release=gradeifelse
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/gradeifelse
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=grade.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/grade.tar
+CND_PACKAGE_NAME_Release=gradeifelse.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/gradeifelse.tar
 #
 # include compiler specific variables
 #
