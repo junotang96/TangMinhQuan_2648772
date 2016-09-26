@@ -1,7 +1,7 @@
 /* 
    File:   main
-   Author: Dr. Mark E. Lehr
-   Created on September 26th, 2016, 9:41 AM
+   Author: Minh Quan Tang
+   Created on September 26th, 2016, 10:15 AM
    Purpose:  Display 13 columns of the truth table
  */
 
@@ -32,7 +32,15 @@ int main(int argc, char** argv) {
     cout<<(y?'T':'F')<<"  ";
     cout<<(!x?'T':'F')<<"  ";
     cout<<(!y?'T':'F')<<"   ";
-    cout<<(x&&y?'T':'F')<<" ";
+    cout<<(x&&y?'T':'F')<<"   ";
+    cout<<(x||y?'T':'F')<<"    ";
+    cout<<(x^y?'T':'F')<<"    ";
+    cout<<((x^y)^y?'T':'F')<<"     ";
+    cout<<((x^y)^x?'T':'F')<<"       ";
+    cout<<(!(x&&y)?'T':'F')<<"      ";
+    cout<<(!x||!y?'T':'F')<<"       ";
+    cout<<(!(x||y)?'T':'F')<<"      ";
+    cout<<(!x&&!y?'T':'F')<<"   ";
     cout<<endl;
     
     //Input values for second row of the truth table
@@ -43,7 +51,15 @@ int main(int argc, char** argv) {
     cout<<(y?'T':'F')<<"  ";
     cout<<(!x?'T':'F')<<"  ";
     cout<<(!y?'T':'F')<<"   ";
-    cout<<(x&&y?'T':'F')<<" ";
+    cout<<(x&&y?'T':'F')<<"   ";
+    cout<<(x||y?'T':'F')<<"    ";
+    cout<<(x^y?'T':'F')<<"    ";
+    cout<<((x^y)^y?'T':'F')<<"     ";
+    cout<<((x^y)^x?'T':'F')<<"       ";
+    cout<<(!(x&&y)?'T':'F')<<"      ";
+    cout<<(!x||!y?'T':'F')<<"       ";
+    cout<<(!(x||y)?'T':'F')<<"      ";
+    cout<<(!x&&!y?'T':'F')<<"   ";
     cout<<endl;
 
     //Exit Program
