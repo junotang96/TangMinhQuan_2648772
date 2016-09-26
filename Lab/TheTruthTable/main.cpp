@@ -61,6 +61,46 @@ int main(int argc, char** argv) {
     cout<<(!(x||y)?'T':'F')<<"      ";
     cout<<(!x&&!y?'T':'F')<<"   ";
     cout<<endl;
+    
+    //Input values for third row of the truth table
+    x=false;
+    y=true;
+    
+    //Display the third row of the truth table
+    cout<<(x?'T':'F')<<" ";
+    cout<<(y?'T':'F')<<"  ";
+    cout<<(!x?'T':'F')<<"  ";
+    cout<<(!y?'T':'F')<<"   ";
+    cout<<(x&&y?'T':'F')<<"   ";
+    cout<<(x||y?'T':'F')<<"    ";
+    cout<<(x^y?'T':'F')<<"    ";
+    cout<<((x^y)^y?'T':'F')<<"     ";
+    cout<<((x^y)^x?'T':'F')<<"       ";
+    cout<<(!(x&&y)?'T':'F')<<"      ";
+    cout<<(!x||!y?'T':'F')<<"       ";
+    cout<<(!(x||y)?'T':'F')<<"      ";
+    cout<<(!x&&!y?'T':'F')<<"   ";
+    cout<<endl;
+    
+    //Input values for fourth row of the truth table
+    x=false;
+    y=false;
+    
+    //Display the fourth row of the truth table
+    cout<<(x?'T':'F')<<" ";
+    cout<<(y?'T':'F')<<"  ";
+    cout<<(!x?'T':'F')<<"  ";
+    cout<<(!y?'T':'F')<<"   ";
+    cout<<(x&&y?'T':'F')<<"   ";
+    cout<<(x||y?'T':'F')<<"    ";
+    cout<<(x^y?'T':'F')<<"    ";
+    cout<<((x^y)^y?'T':'F')<<"     ";
+    cout<<((x^y)^x?'T':'F')<<"       ";
+    cout<<(!(x&&y)?'T':'F')<<"      ";
+    cout<<(!x||!y?'T':'F')<<"       ";
+    cout<<(!(x||y)?'T':'F')<<"      ";
+    cout<<(!x&&!y?'T':'F')<<"   ";
+    cout<<endl;
 
     //Exit Program
     return 0;
