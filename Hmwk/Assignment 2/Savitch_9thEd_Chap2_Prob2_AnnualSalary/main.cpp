@@ -1,7 +1,7 @@
 /* 
    File:   main
    Author: Minh Quan Tang
-   Created on September 24th, 12:25 AM
+   Created on September 26th, 5:40 PM
    Purpose:  find amount of retroactive pay due 
  */
 
