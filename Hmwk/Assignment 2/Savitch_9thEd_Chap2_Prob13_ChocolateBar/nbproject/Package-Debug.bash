@@ -13,9 +13,9 @@ CND_BUILDDIR=build
 CND_DLIB_EXT=dll
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/savitch_9thed_chap2_prob14_gradecalculates
-OUTPUT_BASENAME=savitch_9thed_chap2_prob14_gradecalculates
-PACKAGE_TOP_DIR=savitch9thedchap2prob14gradecalculates/
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/savitch_9thed_chap2_prob12_waterwell
+OUTPUT_BASENAME=savitch_9thed_chap2_prob12_waterwell
+PACKAGE_TOP_DIR=savitch9thedchap2prob12waterwell/
 
 # Functions
 function checkReturnCode
@@ -60,15 +60,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/savitch9thedchap2prob14gradecalculates/bin"
+makeDirectory "${NBTMPDIR}/savitch9thedchap2prob12waterwell/bin"
 copyFileToTmpDir "${OUTPUT_PATH}.exe" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savitch9thedchap2prob14gradecalculates.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savitch9thedchap2prob12waterwell.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savitch9thedchap2prob14gradecalculates.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/savitch9thedchap2prob12waterwell.tar *
 checkReturnCode
 
 # Cleanup
