@@ -1,7 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/* 
+   File:   main
+   Author: Minh Quan Tang
+   Created on October 4, 2016, 4:20 PM
+   Purpose: Score a Blackjack hand
  */
 
 #include <iostream>
