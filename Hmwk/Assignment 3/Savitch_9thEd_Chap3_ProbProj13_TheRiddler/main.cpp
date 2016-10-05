@@ -2,7 +2,7 @@
    File:   main
    Author: Minh Quan Tang
    Created on October 5, 2016, 8:26 PM
-   Purpose: Find the adress of The Riddler
+   Purpose: Find the address of The Riddler
  */
 
 #include <iostream>
