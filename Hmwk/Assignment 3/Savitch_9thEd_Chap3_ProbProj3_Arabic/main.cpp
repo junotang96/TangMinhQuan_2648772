@@ -1,3 +1,10 @@
+/* 
+   File:   main
+   Author: Minh Quan Tang
+   Created on October 4, 2016, 2:51 PM
+   Purpose: Algebra Quadratic solution
+ */
+
 #include<iostream>
 using namespace std;
 int main()

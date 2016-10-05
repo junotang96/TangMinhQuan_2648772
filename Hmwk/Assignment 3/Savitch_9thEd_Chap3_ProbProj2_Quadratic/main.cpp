@@ -1,7 +1,7 @@
 /* 
    File:   main
    Author: Minh Quan Tang
-   Created on November 3rd, 2016, 8:50 PM
+   Created on October 3rd, 2016, 8:50 PM
    Purpose: Algebra Quadratic solution
  */
 
