@@ -9,20 +9,12 @@
 #include <iostream>
 #include <cstring>
 
-
-
 using namespace std;
 
 int main(int argc, char** argv) {
     
-    //Write a human vs computer program that plays "23"
-    //c_pick is the computer's choice while h_pick is the human choice
-    
-        
-        
-    
-    int c_pick, h_pick;
-    int toothpicks= 23;
+    int c_pick, h_pick;  //c_pick is the computer's choice while h_pick is the human choice
+    int toothpicks= 23; //Total number of Toothpicks is 23
 
 
 do{ 
