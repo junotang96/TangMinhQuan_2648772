@@ -3,8 +3,9 @@
    Author: Minh Quan Tang
    Created on October 4, 2016, 2:51 PM
    Purpose: Find a year written as a four-digit Arabic
+*/ 
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {   int n;
@@ -13,9 +14,6 @@ int main()
     cout <<"\nDue to the nature of roman numerals\nthey have diverse characters to represent\nArabic numerals, Most are covered, but\nNumbers higher from 4000 to 10000 have\ncharacters not in Ascii, example 4000 would be\nIV with a line on top, just like a regular\nroman 4, to fix this problem I have put a '-'\nin front representing the top line.\nKnowing this, would you like to continue?(Y/N): ";
     cin >> answer;
     answer = toupper(answer);
-
-
-
 
      if(answer == 'Y' && answer != 'N')
      {Scary:
