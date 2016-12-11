@@ -46,7 +46,7 @@ void town()
 int main()
 {
     //intro messages 
-    cout << "                     Welcome to White Knight Adventure!\n";
+    cout << "                     Welcome to RPG Text Aventure Games!!\n";
     cout << "In this game, you will need to kill enemy to get gold and buy equipment to survive.\n\nThe more enemy you kill the harder it gets, and\nhighscores are based on amount killed.\n\n";
     cout << "\nIn town you will find a place to heal, and shops that sell gear.\n\nYou wont have to worry about town until you have gained more gold, so go ahead\nand try fighting by pressing \"2\" on your keyboard\n\n";
     action();
