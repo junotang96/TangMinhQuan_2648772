@@ -21,7 +21,17 @@ using namespace std;  //Name-space used in the System Library
 //Global Constants
     
 //Function Prototypes 
-     
+void pressEnter(string conWord); 
+void help();
+void promptLose(string word);
+void promptWin();
+void promptLose();
+char setBoard(int length);
+void printBoard(int incorrect);
+int replaceChar(string word,char guess,int tempCorrect,int incorrect);
+int playGame();
+void menu();
+
 //Execution Begins Here!
 vector<char> board;
 vector<string> body (6);
@@ -320,3 +330,4 @@ int main()
     //Exit
     return 0;
 }
+
